@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support &middot; I Am Mindful</title>
+<meta name="description" content="Help and FAQ for the I Am Mindful diary app.">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="_shared.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+    <a href="index.html"><img class="icon" src="icon.png" alt="I Am Mindful app icon"></a>
+    <h1>Support</h1>
+    <p class="tagline">Answers to common questions, plus how to get in touch.</p>
+</header>
+
+<h2>Getting started</h2>
+
+<details class="faq" open>
+    <summary>How do I add my first entry?</summary>
+    <p>Tap the <strong>+</strong> button in the top-right corner. The editor opens with today's date pre-selected. Set each of the five 1&ndash;5 ratings &mdash; mood, anxiety, sleep, energy, focus &mdash; add an optional note, then tap <strong>Save</strong>.</p>
+</details>
+
+<details class="faq">
+    <summary>What do the five dimensions mean?</summary>
+    <p>They're loosely modelled on items from the PHQ-9 (depression) and GAD-7 (anxiety) self-report instruments:</p>
+    <ul>
+        <li><strong>Mood</strong> &mdash; how positive you felt overall (1 = very low, 5 = great).</li>
+        <li><strong>Anxiety</strong> &mdash; how worried or on-edge you were (1 = none, 5 = severe). Note: higher is <em>worse</em> for this one, and the colour scale reflects that.</li>
+        <li><strong>Sleep</strong> &mdash; quality of last night's sleep (1 = very poor, 5 = great).</li>
+        <li><strong>Energy</strong> &mdash; how much energy you had during the day (1 = very low, 5 = great).</li>
+        <li><strong>Focus</strong> &mdash; how well you could concentrate (1 = very poor, 5 = great).</li>
+    </ul>
+    <p>These are deliberately subjective. They're meant to give <em>you</em> a quick daily checkpoint &mdash; not a clinical assessment.</p>
+</details>
+
+<details class="faq">
+    <summary>Can I log entries for past days?</summary>
+    <p>Yes. After tapping <strong>+</strong>, change the date at the top of the editor to any past day. Future dates are disabled.</p>
+</details>
+
+<details class="faq">
+    <summary>Can I log more than one entry per day?</summary>
+    <p>Yes. Each <strong>+</strong> tap creates a brand-new entry; you can use this to log a morning and an evening reflection on the same day, for example.</p>
+</details>
+
+<h2>Editing &amp; deleting</h2>
+
+<details class="faq">
+    <summary>How do I edit an existing entry?</summary>
+    <p>Tap the entry's row to open it, then tap <strong>Edit</strong> in the top-right of the detail view. You can change the date, the ratings, and the notes there.</p>
+</details>
+
+<details class="faq">
+    <summary>How do I delete an entry?</summary>
+    <p><strong>Long-press</strong> the entry's row on the main list, then choose <strong>Delete</strong> from the menu that appears. (No swipe &mdash; long-press is the gesture.)</p>
+</details>
+
+<details class="faq">
+    <summary>Can I undo a delete?</summary>
+    <p>Not currently. If you tap <strong>Delete</strong>, the entry is gone immediately.</p>
+</details>
+
+<h2>Data &amp; privacy</h2>
+
+<details class="faq">
+    <summary>Where is my data stored?</summary>
+    <p>Locally on your device, using Apple's SwiftData framework. There is no account, no cloud, no analytics on the entry content itself. See the <a href="privacy.html">privacy page</a> for the short version.</p>
+</details>
+
+<details class="faq">
+    <summary>How do I back up or move my data?</summary>
+    <p>Your data is included in your standard iCloud or iTunes/Finder iPhone backup. There's no in-app export today; if that's important to you, please open a GitHub issue.</p>
+</details>
+
+<details class="faq">
+    <summary>Does the app collect anything about how I'm feeling?</summary>
+    <p>No. The anonymous usage signals we send to TelemetryDeck only record that <em>an</em> entry was created/updated/deleted &mdash; never the date, never the rating values, never the note text. The only metadata we attach is a single boolean indicating whether the entry has notes at all (not what they say).</p>
+</details>
+
+<h2>System requirements</h2>
+
+<details class="faq">
+    <summary>What iPhone and iOS version do I need?</summary>
+    <p>I Am Mindful requires <strong>iOS 17.0 or later</strong> on iPhone. iPad and Apple Watch are not currently supported.</p>
+</details>
+
+<hr>
+
+<h2>Still need help?</h2>
+<div class="card">
+    <p>
+        Open an issue on the project's GitHub page, or email the maintainer. Please include your iOS version, iPhone model, and a description of what happened.
+    </p>
+    <p>
+        <a class="cta" href="mailto:REPLACE_WITH_HIDE_MY_EMAIL_ALIAS@icloud.com">Email support</a>
+        <a class="cta secondary" href="https://github.com/trantjustin/IAmMindful/issues/new">Open a GitHub issue</a>
+    </p>
+</div>
+
+<footer>
+    <p>Last updated 14 May 2026</p>
+    <p>
+        <a href="index.html">Home</a> &nbsp;&middot;&nbsp;
+        <a href="privacy.html">Privacy</a>
+    </p>
+    <p>&copy; I Am Mindful</p>
+</footer>
+
+</div>
+</body>
+</html>
